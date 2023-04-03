@@ -6,10 +6,10 @@ var logger = require('morgan');
 
 var indexRouter = require('./routes/index');
 let profileRouter = require('./routes/profile');
-let productRouter = require(/* meter el require */);
-let registerRouter = require(/* meter el require */);
-let loginRouter = require(/* meter el require */);
-let searchresultsRouter= require(/* meter el require */);
+let productRouter = require('./routes/product');
+let registerRouter = require('./routes/register');
+let loginRouter = require('./routes/login');
+let searchresultsRouter= require('./routes/search-results');
 
 var app = express();
 
